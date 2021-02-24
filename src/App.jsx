@@ -1,13 +1,20 @@
 import HomePage from "./Pages/Home/Home"
 import AboutPage from "./Pages/About/About"
-import Navbar from "./Navbar/Navbar"
+
+import {Switch, Route} from "react-router-dom"
 
 function App() {
   return (
     <>
-      <Navbar />
-      <HomePage />
-      <AboutPage />
+      <Switch>
+        <Route path="/" exact>
+          <HomePage />
+        </Route>
+
+        <Route path="/about" exact>
+          <AboutPage/>
+        </Route>
+      </Switch>
     </>
   )
 }
