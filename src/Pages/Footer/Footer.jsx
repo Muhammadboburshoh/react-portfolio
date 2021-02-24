@@ -4,7 +4,7 @@ function Footer () {
 
   return (
     <footer className="home-footer">
-      <p>About footer page</p>
+      <p>Site footer</p>
     </footer>
   )
 }
