@@ -1,9 +1,11 @@
+import "./Footer.css"
+
 function Footer () {
 
   return (
-    <header>
+    <footer className="home-footer">
       <h1>Site Footer</h1>
-    </header>
+    </footer>
   )
 }
 
