@@ -5,7 +5,6 @@ const LanguageContext = createContext()
 function LanguageProvider ({children}) {
 
   const [ language, setLanguage ] = useState(window.localStorage.getItem("language") || "uz")
-  console.log(language);
 
   useEffect(() => {
     window.localStorage.setItem("language", language)
