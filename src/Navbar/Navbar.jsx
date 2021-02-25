@@ -7,7 +7,7 @@ function Navbar () {
     <>
       <nav className="site-navbar">
         <h2 className="header-logo">
-          <Link className="haeder-link" to="/">MUHAMMADBOBUR</Link>
+          <Link className="haeder-link" to="/">NAJOT TA'LIM</Link>
         </h2>
 
         <ul className="menu">
