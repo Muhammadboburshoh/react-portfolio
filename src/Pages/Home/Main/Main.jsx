@@ -1,11 +1,16 @@
+import { useLanguage } from "../../../Context/LanguageContext"
+import Languages from "../../../data"
 import "./Main.css"
 
 function Main () {
 
+  const [ language ] = useLanguage()
+  const TEXT = Languages[language]
+
   return (
     <main className="home-main">
-      <h1>Assalamu alaykum saytimziga xush kelibsiz!</h1>
-      <p>Usbu bo'lim saytning Home bo'limi.</p>
+      <h1>{TEXT.welcome}</h1>
+      <p>{TEXT.main}</p>
     </main>
   )
 }
