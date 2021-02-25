@@ -1,5 +1,6 @@
 import HomePage from "./Pages/Home/Home"
 import AboutPage from "./Pages/About/About"
+import ErrorPage from "./Pages/ErrorPages/ErrorPages"
 
 import {Switch, Route} from "react-router-dom"
 
@@ -14,6 +15,10 @@ function App() {
 
         <Route path="/about" exact>
           <AboutPage/>
+        </Route>
+
+        <Route path="/:name" exact>
+          <ErrorPage />
         </Route>
       </Switch>
     </div>
