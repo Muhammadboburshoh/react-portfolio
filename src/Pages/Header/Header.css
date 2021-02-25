@@ -6,3 +6,10 @@ body {
 .home-header {
   border-bottom: 1px solid #123;
 }
+
+.select {
+  padding: 5px;
+  margin-bottom: 15px;
+  outline: none;
+  border-radius: 5px;
+}
