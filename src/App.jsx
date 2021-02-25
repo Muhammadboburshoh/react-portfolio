@@ -3,9 +3,10 @@ import AboutPage from "./Pages/About/About"
 
 import {Switch, Route} from "react-router-dom"
 
+import "./App.css"
 function App() {
   return (
-    <>
+    <div className="container">
       <Switch>
         <Route path="/" exact>
           <HomePage />
@@ -15,7 +16,7 @@ function App() {
           <AboutPage/>
         </Route>
       </Switch>
-    </>
+    </div>
   )
 }
 

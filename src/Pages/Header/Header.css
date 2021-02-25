@@ -4,6 +4,5 @@ body {
 }
 
 .home-header {
-  border: 1px solid #123;
-  padding: 2rem;
+  border-bottom: 1px solid #123;
 }
